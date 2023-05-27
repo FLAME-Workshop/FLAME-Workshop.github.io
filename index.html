@@ -1,0 +1,504 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>ICLR 2023 Workshop, Machine Leanring for Materials</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+
+<div class="container">
+    <table border="00" align="center">
+        <tr>
+            <td width="700" align="center" valign="middle">
+                <!-- <h3>NeurIPS 2022 Workshop on</h3> -->
+                <br>
+                <span class="title"><strong>ML4Materials <h3 style="display: inline;">from Molecules to Materials</h3></strong></span></td>
+        </tr>
+        <tr>
+        <td colspan="3" align="center"><h3>Workshop @ ICLR  '23, Fully Virtual, Kigali Rwanda<br><br>
+<!--        <a href="https://zoom.us/j/95655960109?pwd=U3BNbVJ1M0RLYlBodjM5YThaVFlXZz09">[Zoom Meeting]</a> &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  <a href="https://app.sli.do/event/0iocoe6a">[Ask & Vote Panel Questions]</a>-->
+        <strong>
+            <br>
+            <a href="">[Video Recording]</a>
+            <a href="https://iclr.cc/virtual/2023/workshop/12823">[ICLR Page]</a>
+            <a href="https://openreview.net/group?id=ICLR.cc/2023/Workshop/ML4Materials">[OpenReview]</a></strong></h3></td>
+        </tr>
+    </table>
+    <!-- <br><p><img src="figures/schedule.png" width="1000" align="middle"></p> -->
+        <!-- <p><img src="figures/main.png" width="1000" align="middle"/></p> -->
+</div>
+
+</br>
+
+<div class="container">
+    <h2>Overview</h2>
+    <div class="overview">
+        <p>
+        Many of the world's most crucial challenges, such as access to renewable energy, energy storage, or clean water, are currently fundamentally bottlenecked by materials challenges. The discovery of new materials drives the development of key technologies like solar cells, batteries, and catalysis. Machine learning has significantly impacted the modeling of drug-like molecules and proteins, including the discovery of new antibiotics and the accurate prediction of 3D protein structures. Geometric deep learning methods, in particular, have made tremendous progress in modeling atomic structures and are a promising direction for solving open problems in computational materials science.
+        <br><br>
+        While there has been growing interest in materials discovery with machine learning, the specific modeling challenges posed by materials have been largely unknown to the broader community. In particular, compared with the domain of drug-like molecules and proteins, the modeling of materials has the two major challenges outlined below.
+        <br><br>
+        First, materials-specific inductive biases are needed to develop successful ML models. For example, materials often don't have a handy representation, like 2D graphs for molecules or sequences for proteins. Moreover, most materials are found in the condensed phase. This means they need to be represented under periodic boundary conditions, introducing challenges to both representation learning and generative models.
+        <br><br>
+        Second, there exists a broad range of interesting materials classes, such as inorganic crystals, polymers, catalytic surfaces, nanoporous materials, and more. Each class of materials demands a different approach to represent their structures and new tasks/data sets to enable rapid ML developments.
+        <br><br>
+        This workshop aims at bringing together the community to discuss and tackle these two types of challenges. In session A, we will feature speakers to discuss the latest progress in developing ML models for materials focusing on algorithmic challenges, covering topics like geometric deep learning and generative models. In particular, what can we learn from the more developed field of ML for molecules and proteins, and where might challenges differ and opportunities for novel developments lie? In session B, we will feature speakers to discuss unique challenges for each sub-field of materials design and how to define meaningful tasks that are relevant to the domain, covering areas including inorganic materials, polymers, nanoporous materials, and catalysis. More specifically, what are the key materials design problems that ML can help tackle?
+        <br><br>
+    </div>
+</div>
+
+</br>
+
+<div class="container">
+    <h2>Call for papers</h2>
+    <br>
+    <div class="overview">
+        We encourage the community to contribute 4-page extended abstracts to our workshop. Example topics include (but not limited to): </p>
+        <ul>
+        <li>Representation of materials</li>
+        <li>Generative models for materials</li>
+        <li>Unique challenges in modeling materials with machine learning</li>
+        <li>Physical inductive biases useful for machine learning models for materials</li>
+        <li>Benchmark datasets and tools</li>
+        <li>Machine learning potentials</li>
+        <li>Automated experimental synthesis and characterization</li>
+        <li>Integration of simulation and experimental data</li>
+        <li>Language models on scientific literature</li>
+    </ul>
+    All submissions are required to use the ICLR style file. References and appendices do not count towards the page limit, but reviewers will not be required to read beyond the first 4 pages. All accepted papers will be non-archival. Papers have to be anonymized for review, and submitted through the <a href="https://openreview.net/group?id=ICLR.cc/2023/Workshop/ML4Materials">OpenReview</a> workshop page.<br><br>
+    </div>
+</div>
+
+</br>
+
+<div class="container">
+    <h2>Important dates</h2>
+    <br>
+    <div class="overview">
+        <ul>
+        <li>Submission portal opens: Jan. 08, 2023</li>
+        <li>Submission deadline: Feb. 10, 2023</li>
+        <li>Author Notification Deadline: Mar. 3, 2023</li>
+        <li>Camera Ready Deadline: Apr. 5, 2023</li>
+        <li>Workshop Date: May 4, 2023</li>
+    </ul>
+    </div>
+</div>
+</br>
+
+<!-- <div class="container">
+    <h2>Awards</h2>
+    <div class="schedule">
+    <h3><p><strong><font color="#4562c2"><li>Best Paper Award</li></font></strong></p></h3>
+    <p><a href="http://openaccess.thecvf.com/content_CVPRW_2020/papers/w47/Gupta_Improving_the_Affordability_of_Robustness_Training_for_DNNs_CVPRW_2020_paper.pdf"><papertitle>Improving the affordability of robustness training for DNNs</papertitle></a>
+    <br>Sidharth Gupta (University of Illinois at Urbana-Champaign); Parijat Dube (IBM Research); Ashish Verma (IBM Research)</p>
+
+    <h3><p><strong><font color="#4562c2"><li>Best Presentation</li></font></strong></p></h3>
+    <p><a href="short_papers/14.pdf"><papertitle>On Certifying Robustness against Backdoor Attacks via Randomized Smoothing</papertitle></a>
+    <font color="purple">Under Construction</font>
+    </p>
+
+    <h3><p><strong><font color="#4562c2"><li>Travel Award</li></font></strong></p></h3>
+    <p>Tianfu Wu (NC State University)</p>
+    <font color="purple">Under Construction</font>
+    </div>
+</div>
+</br> -->
+
+<div class="container">
+    <h2>Schedule (in US EST)</h2><br>
+    <div class="schedule">
+        <p><strong>09:00 - 09:10 &nbsp &nbsp &nbsp &nbsp Opening Remark </strong></p>
+        
+        <p><strong>09:10 - 09:40 &nbsp  &nbsp &nbsp &nbsp Invited Talk, Boris Kozinsky</strong><br>
+        &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+        </p>
+        
+        <p><strong>09:40 - 10:10 &nbsp  &nbsp &nbsp &nbsp Invited Talk, Marivi Fernandez-Serra</strong><br>
+        &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+        Machine learning approaches to improve the exchange and correlation functional in Density functional Theory</p>
+        
+        <p><strong>10:10 - 10:30 &nbsp  &nbsp &nbsp &nbsp Break </strong></p>
+        
+        <p><strong>10:30 - 11:00 &nbsp &nbsp  &nbsp &nbsp Invited Talk, Tess Smidt</strong><br>
+         &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+        Harnessing the properties of equivariant neural networks to understand and design materials</p>
+        
+        <p><strong>11:00 - 11:30 &nbsp &nbsp  &nbsp &nbsp Invited Talk, Andrew Ferguson</strong><br>
+        &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+        Machine learning-guided directed evolution of functional proteins</p>
+        
+        <p><strong>11:30 - 12:00 &nbsp &nbsp  &nbsp &nbsp Spotlight Talks </strong><br>
+        &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+        JAX-XC: Exchange Correlation Functionals Library in Jax<br>
+        &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+        Crystal Structure Prediction by Joint Equivariant Diffusion on Lattices and Fractional Coordinates<br>
+        &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+        Cross-Quality Few-Shot Transfer for Alloy Yield Strength Prediction: A New Material Science Benchmark and ...<br>
+        </p>
+        <p><strong>12:00 - 13:00 &nbsp &nbsp  &nbsp &nbsp Poster Session 1 </strong></p>
+        
+        <p><strong>13:00 - 13:30 &nbsp &nbsp  &nbsp &nbsp Break </strong></p>
+        
+        <p><strong>13:30 - 14:00 &nbsp &nbsp  &nbsp &nbsp Invited Talk, Yousung Jung</strong><br>
+        &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+        Machine learning to generate molecules and materials and their synthesis predictions</p>
+        
+        <p><strong>14:00 - 14:30 &nbsp &nbsp  &nbsp &nbsp Invited Talk, Rafael Gomez-Bombarelli</strong><br>
+        &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </p>
+        
+        <p><strong>14:30 - 14:50 &nbsp &nbsp  &nbsp &nbsp Break </strong></p>
+        
+        <p><strong>14:50 - 15:20 &nbsp &nbsp  &nbsp &nbsp Invited Talk, Shyue Ping Ong</strong><br>
+        &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp            
+        A potential of everything</p>
+        
+        <p><strong>15:20 - 15:50 &nbsp &nbsp  &nbsp &nbsp Invited Talk, Zachary Ulissi</strong><br>
+        &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  
+        Open datasets/models in catalysis: recent progress their use to massively accelerate adsorption energy workflows
+        </p>
+        <p><strong>15:50 - 16:00 &nbsp &nbsp  &nbsp &nbsp Break </strong></p>
+        
+        <p><strong>16:00 - 17:00 &nbsp &nbsp &nbsp &nbsp Panel Discussion</strong><br>
+        &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  
+        Boris Kozinsky · Tess Smidt · Rafael Gomez-Bombarelli · Marivi Fernandez-Serra · Zachary Ulissi · Shyue Ping Ong · <br>
+        &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  
+        Yousung Jung · Andrew Ferguson</p>
+        
+        <p><strong>17:00 - 18:00 &nbsp &nbsp  &nbsp &nbsp Poster Session 2 </strong></p>
+        <p><strong>18:00 - 18:10 &nbsp &nbsp  &nbsp &nbsp Closing Remark </strong></p>
+    </div>
+</div>
+
+<!--</br>-->
+<!--<div class="container">-->
+<!--    <h2>Call For Papers</h2>-->
+<!--    <div class="call4papers">-->
+<!--      <p><font color="red">We recently received many inquiries about the ddl extension for the paper submission, due to the inconvenience brought by the breakout of COVID-19. We understand this hard situation for all researchers, and decide to allow 1 more week for the paper submission. This deadline is firm and will not be extended futher. If you need any other accommodations, please let us know and we will try our best to help.</font></p>-->-->
+<!--        <p><strong>Submission deadline</strong>: March 15 (<strong><font color="red">NEW: March 22</font></strong>), 2020 Anywhere on Earth (AoE)</p>-->
+<!--        <p><strong>Notification sent to authors</strong>: April 3, 2020 Anywhere on Earth (AoE)</p>-->
+<!--        <p><strong>Camera ready deadline</strong>: April 10, 2020 Anywhere on Earth (AoE)</p>-->
+<!--        <p><strong>Notification sent to authors</strong>: April 10, 2020 Anywhere on Earth (AoE)</p>-->
+<!--        <p><strong>Camera ready deadline</strong>: April 17, 2020 Anywhere on Earth (AoE)</p>-->
+<!--        <p><strong>Submission server</strong>: <a href="https://cmt3.research.microsoft.com/CVPRamlcv2020">https://cmt3.research.microsoft.com/CVPRamlcv2020</a></p>-->
+<!--        <p><strong>Submission format</strong>: Submissions need to be <strong>anonymized</strong>, and follow the <a href="http://cvpr2020.thecvf.com/submission/main-conference/author-guidelines">CVPR 2020 Submission Guidelines</a>. The workshop considers two types of submissions: (1) <font color="orange"><strong>Long Paper</strong></font>: the page limitation is eight excluding references, and will be included in the official CVPR proceedings; (2) <font color="orange"><strong>Extended Abstract</strong></font>: the page limitation is four excluding references, and will <strong>NOT</strong> be included in the official CVPR proceedings. Based on the PC’s recommendation, the accepted long paper/extended abstract will be allocated either a contributed talk or a poster presentation.</p>-->
+<!--        -->
+<!--        <p>We invite submissions on <strong>any aspect of adversarial machine learning in computer vision</strong>. This includes, but is not limited to:</p>-->
+<!--        <ul>-->
+<!--            <li>Adversarial attacks on computer vision models in the digital/physical world</li>-->
+<!--            <li>Improving model robustness against adversarial attacks</li>-->
+<!--            <li>Theoretical understanding of adversarial machine learning</li>-->
+<!--            <li>Applying adversarial machine learning to diagnosing/explaining computer vision models</li>-->
+<!--            <li>Improving representation learning via adversarial machine learning </li>-->
+<!--            <li>Applications of adversarial machine learning in computer vision tasks (e.g., generative models, image captioning, image recognition)</li>-->
+<!--        </ul>-->
+<!--        -->
+<!--        <p><font color="red">We are excited to announce a <strong>DeepMind Best Paper Award and travel grants</strong>. The workshop is fully sponsored by DeepMind through the University of Oxford.</font></p>-->
+<!--        <ul>-->
+<!--            <li>The best paper award will be selected from long papers only. The winner will receive the <strong>US$ 1,500 prize and a certificate</strong> at the workshop’s closing.</li>-->
+<!--            <li>The workshop has several travel grants (US$100 ~ $200 each) for authors. The travel grants will be considered especially for those from underrepresented groups, such as women and minority ethnic groups.</li>-->
+<!--        </ul>-->
+<!--    </div>-->
+<!--</div>-->
+</br>
+
+<div class="container">
+    <h2>Invited Speakers</h2>
+    <div>
+        <div class="instructor">
+            <a href="https://mir.g.harvard.edu/people/boris-kozinsky">
+                <div class="instructorphoto"><img src="figures/Boris.jpg"></div>
+                <div>Boris Kozinsky<br>Harvard<br>Neural potentials<br>Session A</div>
+            </a>
+        </div>
+
+        <div class="instructor">
+            <a href="https://you.stonybrook.edu/fslab/">
+                <div class="instructorphoto"><img src="figures/marivi.jpg"></div>
+                <div>Marivi Fernandez-Serra<br>StonyBrook<br>DFT/QMC<br>Session A</div>
+            </a>
+        </div>
+
+        <div class="instructor">
+            <a href="https://blondegeek.github.io">
+                <div class="instructorphoto"><img src="figures/tess_smidt.jpeg"></div>
+                <div>Tess Smidt<br>MIT EECS<br>Geometric deep learning<br>Session A</div>
+            </a>
+        </div>
+
+        <div class="instructor">
+            <a href="https://qchem.kaist.ac.kr">
+                <div class="instructorphoto"><img src="figures/Yousung.jpg"></div>
+                <div>Yousung Jung<br>KAIST<br>Generative models<br>Session A</div>
+            </a>
+        </div>
+
+
+    </div>
+
+    <p></p>
+    <br>
+    <div>
+        <div class="instructor">
+            <a href="https://www.ferglab.com">
+                <div class="instructorphoto"><img src="figures/andrew-ferguson.png"></div>
+                <div>Andrew Ferguson<br>U of Chicago<br>Polymers<br>Session B</div>
+            </a>
+        </div>
+        <div class="instructor">
+            <a href="http://gomezbombarelli.mit.edu">
+                <div class="instructorphoto"><img src="figures/rgb.jpeg"></div>
+                <div>Rafael Gomez-Bombarelli<br>MIT DMSE<br>Nanoporous materials<br>Session B</div>
+            </a>
+        </div>
+        <div class="instructor">
+            <a href="http://materialsvirtuallab.org">
+                <div class="instructorphoto"><img src="figures/shyue.jpg"></div>
+                <div>Shyue Ping Ong<br>UCSD<br>Inorganic materials<br>Session B</div>
+            </a>
+        </div>
+        <div class="instructor">
+            <a href="https://engineering.cmu.edu/directory/bios/ulissi-zachary.html">
+                <div class="instructorphoto"><img src="figures/zulissi.png"></div>
+                <div>Zachary Ulissi<br>CMU<br>Catalysis<br>Session B</div>
+            </a>
+        </div>
+    </div>
+</div>
+
+</br>
+
+<div class="container">
+    <h2>Organizing Committee</h2>
+    <br>
+    <div>
+        <div class="instructor">
+            <a href="https://hansen7.github.io">
+                <div class="instructorphoto"><img src="figures/hanchenwang.png"></div>
+                <div>Hanchen Wang<br>Genentech, Stanford</div>
+            </a>
+        </div>
+
+        <div class="instructor">
+            <a href="https://simonbatzner.github.io">
+                <div class="instructorphoto"><img src="figures/simonbatzner.jpg"></div>
+                <div>Simon Batzner<br>Harvard</div>
+            </a>
+        </div>
+
+        <div class="instructor">
+            <a href="http://txie.me">
+                <div class="instructorphoto"><img src="figures/tianxie.jpeg"></div>
+                <div>Tian Xie<br>MSR AI4Science</div>
+            </a>
+        </div>
+
+        <div class="instructor">
+            <a href="https://xiangfu.co">
+                <div class="instructorphoto"><img src="figures/xiangfu.jpeg"></div>
+                <div>Xiang Fu<br>MIT CSAIL</div>
+            </a>
+        </div>
+
+    </div>
+</div>
+</br>
+
+<div class="container">
+    <h2>Advising Committee</h2>
+    <br>
+    <div>
+        <div class="instructor">
+            <a href="https://vertaix.princeton.edu/">
+                <div class="instructorphoto"><img src="figures/AdjiBoussoDieng.jpg"></div>
+                <div>Adji Bousso Dieng<br>Princeton</div>
+            </a>
+        </div>
+
+        <div class="instructor">
+            <a href="https://research.google/people/EkinDogusCubuk/">
+                <div class="instructorphoto"><img src="figures/ekincubuk.jpeg"></div>
+                <div>Ekin Dogus Cubuk<br>Google Brain</div>
+            </a>
+        </div>
+
+        <div class="instructor">
+            <a href="https://olivetti.mit.edu">
+                <div class="instructorphoto"><img src="figures/elsaolivetti.jpeg"></div>
+                <div>Elsa Olivetti<br>MIT DMSE</div>
+            </a>
+        </div>
+
+        <div class="instructor">
+            <a href="https://perssongroup.lbl.gov">
+                <div class="instructorphoto"><img src="figures/kapersson.jpg"></div>
+                <div>Kristin Persson<br>Berkeley & LBNL</div>
+            </a>
+        </div>
+
+    </div>
+
+    <p></p>
+
+    <div>
+
+        <div class="instructor">
+            <a href="https://staff.fnwi.uva.nl/m.welling/">
+                <div class="instructorphoto"><img src="figures/maxwelling.jpg"></div>
+                <div>Max Welling<br>MSR & UoAmsterdam</div>
+            </a>
+        </div>
+
+        <div class="instructor">
+            <a href="http://people.csail.mit.edu/tommi/tommi.html">
+                <div class="instructorphoto"><img src="figures/tommijaakkola.jpg"></div>
+                <div>Tommi Jaakkola <br>MIT CSAIL</div>
+            </a>
+        </div>
+
+    </div>
+</div>
+</br>
+
+
+<div class="container">
+    <h2>Program Committee, Reviewers</h2>
+    <br>
+    <h3><font color="purple"><strike>We are now actively looking for reviewers/PCs, if you are interested, please fill out this <a href="https://forms.gle/k7g2QrDYua6jrZtS7">Google form</a>!</strike></font></h3>
+<!--     <div class="pcs-row pcs">
+        <div class="pcs-column">
+            <ul>
+                <li>Benjamin Chidester (CMU)</li>
+                <li>Romain Lopez (Stanford, GenenTech)</li>
+            </ul>
+        </div>
+        <div class="pcs-column">
+            <ul>
+                <li>Mariano Gabitto (UW)</li>
+                <li>Kemal Inecik (Helmholtz Munich)</li>
+            </ul>
+        </div>
+    <div class="pcs-column">
+            <ul>
+                <li>Gao Xin (KAUST)</li>
+                <li>Lior Pachter (Caltech)</li>
+            </ul>
+        </div>
+    </div> -->
+</div>
+
+</br>
+<div class="container">
+<h2>Accepted Papers</h2><br>
+<!-- <h3><strong><font color="purple">Under Construction</font></strong></h3> -->
+<!-- <h3><strong>Please find the zoom link of each paper at <a href="http://cvpr20.com/adversarial-machine-learning-in-computer-vision/">our internal website.</a></strong></h3> -->
+<div class="schedule">
+<p><a href=""><papertitle>Machine learning-assisted close-set X-ray diffraction phase identification of transition metals</papertitle></a>
+        <br>Maksim Zhdanov; Andrey Zhdanov</p>
+    
+        <p><a href=""><papertitle>Transfer Learning with Diffusion Model for Polymer Property Prediction</papertitle></a>
+        <br>Gang Liu; Meng Jiang</p>
+    
+        <p><a href=""><papertitle>Fragment-based Multi-view Molecular Contrastive Learning</papertitle></a>
+        <br>Seojin Kim; Jaehyun Nam; Junsu Kim; Hankook Lee; Sungsoo Ahn; Jinwoo Shin</p>
+    
+        <p><a href=""><papertitle>Learning single-step retrosynthesis with pseudo-reactions</papertitle></a>
+        <br>Shuan Chen; Yousung Jung</p>
+    
+        <p><a href=""><papertitle>CrysGNN : Distilling pre-trained knowledge to enhance property prediction for crystalline materials.</papertitle></a>
+        <br>KISHALAY DAS; Bidisha Samanta; Pawan Goyal; Seung-Cheol Lee; Satadeep Bhattacharjee; Niloy Ganguly</p>
+    
+        <p><a href=""><papertitle>3D Graph Conditional Distributions via Semi-Equivariant Continuous Normalizing Flows</papertitle></a>
+        <br>Eyal Rozenberg; Ehud Rivlin; Daniel Freedman</p>
+    
+        <p><a href=""><papertitle>Cooperative data-driven modeling: continual learning of different material behavior</papertitle></a>
+        <br>Aleksandr Dekhovich; Ozgur Taylan Turan; Jiaxiang Yi; Miguel Anibal Bessa</p>
+    
+        <p><a href=""><papertitle>Crystal Structure Prediction by Joint Equivariant Diffusion on Lattices and Fractional Coordinates</papertitle></a>[<font color="purple">Oral</font>]
+        <br>Rui Jiao; Wenbing Huang; Peijia Lin; Jiaqi Han; Pin Chen; Yutong Lu; Yang Liu</p>
+    
+        <p><a href=""><papertitle>Compositional and elemental descriptors for perovskite materials</papertitle></a>
+        <br>Jiri Hostas; Maicon Pierre Lourenço; John Garcia; Hatef Shahmohamadi; Alain Tchagang; Karthik Shankar; Venkataraman Thangadurai; Dennis R. Salahub</p>
+    
+        <p><a href=""><papertitle>Latent Conservative Objective Models for Offline Data-Driven Crystal Structure Prediction</papertitle></a>
+        <br>Han Qi; Stefano Rando; Xinyang Geng; Iku Ohama; Aviral Kumar; Sergey Levine</p>
+    
+        <p><a href=""><papertitle>Cross-Quality Few-Shot Transfer for Alloy Yield Strength Prediction: A New Material Science Benchmark and An Integrated Optimization Framework</papertitle></a>[<font color="purple">Oral</font>]
+        <br>Xuxi Chen; Tianlong Chen; Everardo Yeriel Olivares; Kate Elder; Scott McCall; Aurelien Perron; Joseph McKeown; Bhavya Kailkhura; Zhangyang Wang; Brian Gallagher</p>
+    
+        <p><a href=""><papertitle>JAX-XC: Exchange Correlation Functionals Library in Jax</papertitle></a> [<font color="purple">Oral</font>]
+        <br>Kunhao Zheng; Min Lin</p>
+    
+        <p><a href=""><papertitle>Predicting Density of States via Multi-modal Transformer</papertitle></a>
+        <br>Namkyeong Lee; Heewoong Noh; Sungwon Kim; Dongmin Hyun; Gyoung S. Na; Chanyoung Park</p>
+    
+        <p><a href=""><papertitle>Graph-informed simulation-based inference for models of active matter</papertitle></a>
+        <br>Namid Stillman; Silke Henkes; Roberto Mayor; Gilles Louppe</p>
+    
+        <p><a href=""><papertitle>Matbench Discovery - Can machine learning identify stable crystals?</papertitle></a>
+        <br>Janosh Riebesell; Rhys Goodall; Anubhav Jain; Kristin Persson; Alpha Lee</p>
+    
+        <p><a href=""><papertitle>Machine Learning for XRD Spectra Interpretation in High-Throughput Material Science</papertitle></a>
+        <br>Hilary Egan; Davi Marcelo Febba; Andriy Zakutayev</p>
+    
+        <p><a href=""><papertitle>In-situ Anomaly Detection in Additive Manufacturing with Graph Neural Networks</papertitle></a>
+        <br>Sebastian Larsen; Paul A. Hooper</p>
+    
+        <p><a href=""><papertitle>Controlling Dynamic Spatial Light Modulators using Equivariant Neural Networks</papertitle></a>
+        <br>Sumukh Vasisht Shankar; Darrel D'Souza; Jonathan P Singer; Robin Walters</p>
+    
+        <p><a href=""><papertitle>Designing Nonlinear Photonic Crystals for High-Dimensional Quantum State Engineering</papertitle></a>
+        <br>Eyal Rozenberg; Aviv Karnieli; Ofir Yesharim; Joshua Foley-Comer; Sivan Trajtenberg-Mills; Sarika Mishra; Shashi Prabhakar; Ravindra Pratap Singh; Daniel Freedman; Alex M. Bronstein; Ady Arie</p>
+    
+        <p><a href=""><papertitle>Behavioral Cloning for Crystal Design</papertitle></a>
+        <br>Prashant Govindarajan; Santiago Miret; Jarrid Rector-Brooks; Mariano Phielipp; Janarthanan Rajendran; Sarath Chandar</p>
+    
+        <p><a href=""><papertitle>A framework for fully autonomous design of materials via multiobjective optimization and active learning: challenges and next steps</papertitle></a>
+        <br>Tyler H Chang; Jakob R Elias; Stefan M. Wild; Santanu Chaudhuri; Joseph A. Libera</p>
+    
+        <p><a href=""><papertitle>MatKB: Semantic Search for Polycrystalline Materials Synthesis Procedures</papertitle></a>
+        <br>Xianjun Yang; Stephen Wilson; Linda Petzold</p>
+    
+        <p><a href=""><papertitle>Forward and Inverse design of high $T_C$ superconductors with DFT and deep learning</papertitle></a>
+        <br>Daniel Wines; Kevin F Garrity; Tian Xie; Kamal Choudhary</p>
+    
+        <p><a href=""><papertitle>Expanding the Extrapolation Limits of Neural Network Force Fields using Physics-Based Data Augmentation </papertitle></a>
+        <br>Yuliia Orlova; Gavin Keith Ridley; Frederick Zhao; Rafael Gomez-Bombarelli</p>
+    
+        <p><a href=""><papertitle>SimuStruct: Simulated Structural Plate with Holes Dataset with Machine Learning Applications</papertitle></a>
+        <br>Bruno Alves Ribeiro; Joao Alves Ribeiro; Faez Ahmed; Hugo Penedones; Jorge Belinha; Luís Sarmento; Miguel Bessa; Sérgio Tavares</p>
+    
+        <p><a href=""><papertitle>Constructing and Compressing Global Moment Descriptors from Local Atomic Environments</papertitle></a>
+        <br>Vahe Gharakhanyan; Max Shirokawa Aalto; Aminah Alsoulah; Nongnuch Artrith; Alexander Urban</p>
+</div>
+</div>
+
+</br>
+<div class="container">
+    <h2>Contact</h2>
+    <br>
+    <h3>If you have any questions, you can reach out to organizers at <a href="mailto: ml4materials@googlegroups.com">ml4materials@googlegroups.com</a></h3>
+</div>
+</br>
+
+<div class="container">
+    <h2>Sponsor</h2>
+    <div><img width="300" src="figures/msr.jpeg"></div><br>
+</div>
+</br>
+
+<div class="containersmall">
+        The webpage template is by the courtesy of <a href="https://adv-workshop-2020.github.io/">CVPR 2020 Workshop on Adversarial Machine Learning in Computer Vision</a>.
+    </p>
+</div>
+</br>
+</br>
+<!--<p align="center" class="acknowledgement">Last updated: Jan. 6, 2017</p>-->
+</body>
+</html>
