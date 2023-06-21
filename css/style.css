@@ -10,6 +10,20 @@ body {
 	font-size:16px;
 }
 
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 4vw; /* Adjust font size for smaller screens */
+  }
+}
+
+/* Media query for larger screens */
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 2vw; /* Adjust font size for larger screens */
+  }
+}
+
 /* Headings */
 
 h1 {
