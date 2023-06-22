@@ -11,18 +11,18 @@ body {
 }
 
 /* Media query for smaller screens */
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
   body {
-    font-size: 4vw; /* Adjust font size for smaller screens */
+    font-size: 4vw; 
   }
-}
+}*/
 
 /* Media query for larger screens */
-@media screen and (min-width: 1200px) {
+/*@media screen and (min-width: 1200px) {
   body {
-    font-size: 2vw; /* Adjust font size for larger screens */
+    font-size: 2vw; 
   }
-}
+}*/
 
 /* Headings */
 
